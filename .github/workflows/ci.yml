@@ -22,8 +22,8 @@ jobs:
       - uses: subosito/flutter-action@v1
         with:
           channel: "stable"
-      - run: flutter pub get
-      - run: flutter analyze
+      - run: cd app_estoque && flutter pub get
+      - run: cd app_estoque && flutter pub get
       
       - run: flutter test --coverage
       - run: flutter test --machine > test-results.json
