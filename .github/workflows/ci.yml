@@ -22,11 +22,11 @@ jobs:
       - uses: subosito/flutter-action@v1
         with:
           channel: "stable"
-      - run: flutter pub get
-      - run: flutter analyze
+      - run: cd app_estoque && flutter pub get
+      - run: cd app_estoque && flutter pub get
       
-      - run: flutter test --coverage
-      - run: flutter test --machine > test-results.json
+      - run: cd app_estoque && flutter test --coverage
+      - run: cd app_estoque && flutter test --machine > test-results.json
       - uses: dorny/test-reporter@v1.4.2
         with:
           name: test-results
@@ -35,4 +35,3 @@ jobs:
       - uses: VeryGoodOpenSource/very_good_coverage@v1.1.1
         with:
           min_coverage: 80
-
