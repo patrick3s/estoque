@@ -1,0 +1,26 @@
+{
+	"folders": [
+		{
+			"path": "app_estoque"
+		},
+		{
+			"path": "core_module"
+		},
+		{
+			"path": "splash_module"
+		},
+		{
+			"path": "home_module"
+		},
+		{
+			"path": "dependency_module"
+		},
+		{
+			"path": "design_system_surprise_box"
+		},
+		{
+			"path": "auth_module"
+		}
+	],
+	"settings": {}
+}

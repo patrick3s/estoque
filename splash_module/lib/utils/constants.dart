@@ -1,0 +1,1 @@
+const documentsRive = 'assets/documents.riv';
