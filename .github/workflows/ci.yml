@@ -25,8 +25,9 @@ jobs:
       - run: cd app_estoque && flutter pub get
       - run: cd app_estoque && flutter analyze
       
-      - run: cd app_estoque && flutter test --coverage
+
       - run: cd app_estoque && flutter test --machine > test-results.json
+      - run: cd app_estoque && flutter test --coverage
       - uses: dorny/test-reporter@v1.4.2
         with:
           name: test-results
