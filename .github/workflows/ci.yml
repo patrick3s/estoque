@@ -34,5 +34,6 @@ jobs:
           reporter: flutter-json
       - uses: VeryGoodOpenSource/very_good_coverage@v1.1.1
         with:
+        path: app_estoque/coverage/lcov.info
           min_coverage: 80
 
