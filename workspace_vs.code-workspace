@@ -20,6 +20,9 @@
 		},
 		{
 			"path": "auth_module"
+		},
+		{
+			"path": ".github"
 		}
 	],
 	"settings": {}
