@@ -1,7 +1,7 @@
 library auth_module;
 
-/// A Calculator.
-class Calculator {
-  /// Returns [value] plus 1.
-  int addOne(int value) => value + 1;
-}
+export 'module.dart';
+export 'util/auth_helper.dart';
+export 'src/features/data/model/user_model.dart';
+export 'src/features/data/serializer/user_serializer.dart';
+export 'src/core/data/keys_models/user_keys.dart';

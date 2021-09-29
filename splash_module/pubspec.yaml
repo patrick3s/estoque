@@ -11,11 +11,10 @@ dependencies:
   flutter:
     sdk: flutter
   
-  dependency_module:
-    path: ../dependency_module
+  core_module:
+    path: ../core_module
   
-  design_system_surprise_box:
-    path: ../design_system_surprise_box
+ 
 
 dev_dependencies:
   flutter_test:

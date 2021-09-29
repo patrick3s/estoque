@@ -1,4 +1,5 @@
-import 'package:dependency_module/dependency_module.dart';
+
+import 'package:core_module/core_module.dart';
 import 'package:home_module/ui/main_home_route_ui.dart';
 
 

@@ -7,3 +7,4 @@ export  'package:http/http.dart';
 export 'package:mocktail/mocktail.dart';
 export 'package:dartz/dartz.dart' hide Bind,State;
 export  'package:rive/rive.dart';
+export 'package:shared_preferences/shared_preferences.dart';

@@ -1,3 +1,4 @@
+import 'package:core_module/util/env.dart';
 import 'package:flutter/material.dart';
 
 class SignInUI extends StatefulWidget {
@@ -8,11 +9,17 @@ class SignInUI extends StatefulWidget {
 }
 
 class _SignInUIState extends State<SignInUI> {
+
   @override
   Widget build(BuildContext context) {
-    return const Scaffold(
+    return Scaffold(
       body: SafeArea(child: Center(
-        child: Text('SignInUi'),
+        child: Column(
+          children: const [
+             Text('SignInUi'),
+            Text(EnvApp.baseApi)
+          ],
+        ),
       )),
     );
   }

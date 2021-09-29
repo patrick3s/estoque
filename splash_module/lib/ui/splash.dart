@@ -1,5 +1,4 @@
-import 'package:dependency_module/dependency_module.dart';
-import 'package:design_system_surprise_box/colors.dart';
+import 'package:core_module/core_module.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:splash_module/utils/constants.dart';
@@ -41,14 +40,14 @@ class _SplashUIState extends State<SplashUI>{
   }
 
   _existsUser()async{
-    const userLogged = false;
+    final userLogged =await AuthHelper.isLogged();
     await Future.delayed(const Duration(seconds: 3));
     _controller?.dispose();
     if(!userLogged){
-      Modular.to.pushNamed('auth/');
+      Modular.to.pushReplacementNamed('auth/');
       return;
     }
-    Modular.to.pushNamed('home/');
+    Modular.to.pushReplacementNamed('home/');
   }
 
   @override

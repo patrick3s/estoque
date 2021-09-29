@@ -5,15 +5,26 @@
     "version": "0.2.0",
     "configurations": [
         {
-            "name": "app_estoque",
-            "request": "launch",
-            "type": "dart"
-        },
-        {
-            "name": "app_estoque (profile mode)",
+            "name": "[DEV] Meu Negócio",
             "request": "launch",
             "type": "dart",
-            "flutterMode": "profile"
-        }
+            "args": [
+                "--dart-define=DEFINE_APP_NAME=[DEV] Meu Negócio",
+                "--dart-define=DEFINE_SUFFIX_NAME=.dev",
+                "--dart-define=DEFINE_SERVER=192.168.0.1",
+                "--dart-define=DEFINE_BASE_API=192.168.0.20"
+            ]
+        },
+        {
+            "name": "[PROD] Meu Negócio",
+            "request": "launch",
+            "type": "dart",
+            "args": [
+                "--dart-define=DEFINE_APP_NAME=Meu Negócio",
+                "--dart-define=DEFINE_SERVER=192.168.0.1",
+                "--dart-define=DEFINE_BASE_API=192.168.0.2"
+            ]
+        },
+       
     ]
 }

@@ -14,12 +14,11 @@ dependencies:
   dependency_module:
     path: ../dependency_module
   
-  splash_module:
-    path: ../splash_module
-  home_module:
-    path: ../home_module
-  auth_module:
-    path: ../auth_module
+  design_system_surprise_box:
+    path: ../design_system_surprise_box
+
+  commons:
+    path: ../commons    
 
 dev_dependencies:
   flutter_test:
