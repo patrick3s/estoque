@@ -51,7 +51,10 @@ app.*.map.json
 /android/app/profile
 /android/app/release
 /app_estoque/android/app/build/*
-.app_estoque/android/app/build/*
-/app_estoque/android/app/build
+..app_estoque/android/app/build/*
+../app_estoque/android/app/build
+..app_estoque/ios/build/*
+../app_estoque/ios/build/
 app_estoque/android/app/build
-
+app_estoque/ios/build
+/app_estoque/android
