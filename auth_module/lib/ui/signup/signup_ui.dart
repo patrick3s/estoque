@@ -149,15 +149,7 @@ class _SignUpUIState extends State<SignUpUI> implements SignUpContract {
 
   @override
   success() {
-    ScaffoldMessenger.of(context).showSnackBar(
-      SnackBar(
-        backgroundColor: Colors.green,
-        content: Text("successo",
-      style: Theme.of(context).textTheme.subtitle1?.copyWith(
-        color: AppColors.white
-      ),
-      ))
-    );
+    Modular.to.pushReplacementNamed('/home/products',);
   }
 
  

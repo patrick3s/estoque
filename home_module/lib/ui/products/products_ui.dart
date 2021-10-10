@@ -72,7 +72,7 @@ class _ProductsUIState extends State<ProductsUI> {
                                 ..._controller.getProds.map((e) => TileItemProduct(product: e)).toList() 
                               ]else...[
                                 const Center(
-                                  child: Center(child: Text('Você não tem nenhum produto cadastrado ainda')),
+                                  child: Center(child: Text('Nenhum produto encontrado.')),
                                 )
                               ]
                             ],
