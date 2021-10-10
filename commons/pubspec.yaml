@@ -17,6 +17,7 @@ dependencies:
     path: ../home_module
   auth_module:
     path: ../auth_module
+    
 
 dev_dependencies:
   flutter_test:

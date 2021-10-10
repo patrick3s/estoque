@@ -16,9 +16,18 @@ dependencies:
   path_provider: ^2.0.5
   http: ^0.13.3
   dartz: ^0.10.0
+  google_fonts: ^2.1.0
   shared_preferences: ^2.0.8
   mocktail: ^0.1.4
+  bloc: ^7.2.1
   rive: ^0.7.28
+  equatable: ^2.0.3
+  rxdart: ^0.27.2
+  currency_text_input_formatter: ^2.1.3
+  admob_flutter: ^2.0.0-nullsafety.1
+  share_extend: "^2.0.0"
+
+
   
 dev_dependencies:
   

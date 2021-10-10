@@ -1,3 +1,4 @@
+
 import 'package:core_module/core_module.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
@@ -47,7 +48,7 @@ class _SplashUIState extends State<SplashUI>{
       Modular.to.pushReplacementNamed('auth/');
       return;
     }
-    Modular.to.pushReplacementNamed('home/');
+    Modular.to.pushReplacementNamed('home/products');
   }
 
   @override

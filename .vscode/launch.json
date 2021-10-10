@@ -1,0 +1,112 @@
+{
+    // Use o IntelliSense para saber mais sobre os atributos possíveis.
+    // Focalizar para exibir as descrições dos atributos existentes.
+    // Para obter mais informações, acesse: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "app_estoque",
+            "cwd": "app_estoque",
+            "request": "launch",
+            "type": "dart"
+        },
+        {
+            "name": "app_estoque (profile mode)",
+            "cwd": "app_estoque",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "profile"
+        },
+        {
+            "name": "auth_module",
+            "cwd": "auth_module",
+            "request": "launch",
+            "type": "dart"
+        },
+        {
+            "name": "auth_module (profile mode)",
+            "cwd": "auth_module",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "profile"
+        },
+        {
+            "name": "commons",
+            "cwd": "commons",
+            "request": "launch",
+            "type": "dart"
+        },
+        {
+            "name": "commons (profile mode)",
+            "cwd": "commons",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "profile"
+        },
+        {
+            "name": "core_module",
+            "cwd": "core_module",
+            "request": "launch",
+            "type": "dart"
+        },
+        {
+            "name": "core_module (profile mode)",
+            "cwd": "core_module",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "profile"
+        },
+        {
+            "name": "dependency_module",
+            "cwd": "dependency_module",
+            "request": "launch",
+            "type": "dart"
+        },
+        {
+            "name": "dependency_module (profile mode)",
+            "cwd": "dependency_module",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "profile"
+        },
+        {
+            "name": "design_system_surprise_box",
+            "cwd": "design_system_surprise_box",
+            "request": "launch",
+            "type": "dart"
+        },
+        {
+            "name": "design_system_surprise_box (profile mode)",
+            "cwd": "design_system_surprise_box",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "profile"
+        },
+        {
+            "name": "home_module",
+            "cwd": "home_module",
+            "request": "launch",
+            "type": "dart"
+        },
+        {
+            "name": "home_module (profile mode)",
+            "cwd": "home_module",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "profile"
+        },
+        {
+            "name": "splash_module",
+            "cwd": "splash_module",
+            "request": "launch",
+            "type": "dart"
+        },
+        {
+            "name": "splash_module (profile mode)",
+            "cwd": "splash_module",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "profile"
+        }
+    ]
+}

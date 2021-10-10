@@ -12,17 +12,18 @@
                 "--dart-define=DEFINE_APP_NAME=[DEV] Meu Negócio",
                 "--dart-define=DEFINE_SUFFIX_NAME=.dev",
                 "--dart-define=DEFINE_SERVER=192.168.0.1",
-                "--dart-define=DEFINE_BASE_API=192.168.0.20"
+                "--dart-define=DEFINE_BASE_API=https://api-meu-nogocio.herokuapp.com/"
             ]
         },
         {
-            "name": "[PROD] Meu Negócio",
+            "name": "Meu Negócio",
             "request": "launch",
             "type": "dart",
             "args": [
                 "--dart-define=DEFINE_APP_NAME=Meu Negócio",
                 "--dart-define=DEFINE_SERVER=192.168.0.1",
-                "--dart-define=DEFINE_BASE_API=192.168.0.2"
+                "--dart-define=DEFINE_BASE_API=https://api-meu-nogocio.herokuapp.com/",
+                "--dart-define=DEFINE_SUFFIX_NAME=.prod",
             ]
         },
        

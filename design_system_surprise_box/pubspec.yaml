@@ -2,7 +2,7 @@ name: design_system_surprise_box
 description: A new Flutter package project.
 version: 0.0.1
 homepage:
-
+publish_to: 'none'
 environment:
   sdk: ">=2.12.0 <3.0.0"
   flutter: ">=1.17.0"
@@ -10,6 +10,9 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
+
+  core_module:
+    path: ../core_module
 
 dev_dependencies:
   flutter_test:

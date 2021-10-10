@@ -8,10 +8,11 @@ import 'package:dependency_module/dependency_module.dart';
 
 
 
-
 class CoreModule extends Module {
   @override
   List<Bind<Object>> get binds => [
+    Bind((i) => Api()),
+    Bind((i) => $userUsecase)
   ];
   
    @override
@@ -19,7 +20,6 @@ class CoreModule extends Module {
     ModuleRoute('/', module: SplashModule()),
     ModuleRoute('/home', module: HomeModule(),),
     ModuleRoute('/auth', module: AuthModule())
-    //ModuleRoute('/home',module: HomeModule()),
 
     ];
 

@@ -13,6 +13,8 @@ dependencies:
   
   core_module:
     path: ../core_module
+  pdf: ^3.6.0
+
 
 dev_dependencies:
   flutter_test:
