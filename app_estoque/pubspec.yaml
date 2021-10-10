@@ -36,6 +36,7 @@ dependencies:
   cupertino_icons: ^1.0.2
   core_module:
     path: ../core_module
+  
 
 dev_dependencies:
   flutter_test:
@@ -52,6 +53,13 @@ dev_dependencies:
 # following page: https://dart.dev/tools/pub/pubspec
 
 # The following section is specific to Flutter.
+  flutter_launcher_icons: "^0.9.0"
+
+flutter_icons:
+  image_path_android: "assets/icone.jpeg"
+  image_path_ios: "assets/icone.jpeg"
+  ios: true
+  android: true
 flutter:
 
   # The following line ensures that the Material Icons font is
